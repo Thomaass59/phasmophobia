@@ -461,12 +461,10 @@ table td {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* margin: -15px 565px; */
-    margin: 17px 243px;
-    /* padding: 188px; */
+    /* margin: 17px 243px; */
+    margin: 17px auto;
     padding: 211px;
     border: 6px solid #888;
-    /* width: 365px; */
     width: 1028px;
 }
 
@@ -1057,7 +1055,7 @@ hr:after {
 }
 
 /* Computer */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1080px) {
     .sectionObject,
     .sectionMap,
     .sectionGhost,
@@ -1162,12 +1160,485 @@ hr:after {
         width: 500px;
         height: 500px;
     }
+    .btnHantu {
+        background-image: url('../image/ghost/hantu.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnDeo {
+        background-image: url('../image/ghost/deogen.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnMare {
+        background-image: url('../image/ghost/mare.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnBanshee {
+        background-image: url('../image/ghost/banshee.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnDemon {
+        background-image: url('../image/ghost/demon.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnDjinn {
+        background-image: url('../image/ghost/djinn.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnSpirit {
+        background-image: url('../image/ghost/spirit.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnPhantom {
+        background-image: url('../image/ghost/phantom.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnGoryo {
+        background-image: url('../image/ghost/goryo.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnTwin {
+        background-image: url('../image/ghost/twin.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnMimic {
+        background-image: url('../image/ghost/mimic.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnMoroi {
+        background-image: url('../image/ghost/moroi.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnMyling {
+        background-image: url('../image/ghost/myling.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnShadow {
+        background-image: url('../image/ghost/shade.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnOni {
+        background-image: url('../image/ghost/oni.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnOnryo {
+        background-image: url('../image/ghost/onryo.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnPolter {
+        background-image: url('../image/ghost/polter.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnRaiju {
+        background-image: url('../image/ghost/raiju.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnRevenant {
+        background-image: url('../image/ghost/revenant.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnWraith {
+        background-image: url('../image/ghost/wraith.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnThaye {
+        background-image: url('../image/ghost/thaye.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnYokai {
+        background-image: url('../image/ghost/yokai.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnYurei {
+        background-image: url('../image/ghost/yurei.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnObake {
+        background-image: url('../image/ghost/obake.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    .btnSinge{
+        background-color: transparent;
+        background-image: url('../image/maudits/singe.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    
+    .btnMusic{
+        background-color: transparent;
+        background-image: url('../image/maudits/music.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px
+    }
+    
+    .btnMiroir{
+        background-color: transparent;
+        background-image: url('../image/maudits/miroir.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    
+    .btnOuija{
+        background-color: transparent;
+        background-image: url('../image/maudits/ouija.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    
+    .btnCircle{
+        background-color: transparent;
+        background-image: url('../image/maudits/circle.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    
+    .btnTarot{
+        background-color: transparent;
+        background-image: url('../image/maudits/tarot.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    
+    .btnVoodoo{
+        background-color: transparent;
+        background-image: url('../image/maudits/voodoo.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    
+    .btnOs{
+        background-color: transparent;
+        background-image: url('../image/maudits/os.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px 7px;
+        border-radius: 17px;
+    }
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        border:0px solid #3a3a3a;
+        padding:5px;
+    }
+    table th {
+        font-family: roboto, sans-serif;
+        border:0px solid #3a3a3a;
+        padding:5px;
+        background: #262626;
+        color: #ffffff;
+        font-size: small;
+    }
+    table td {
+        font-family: roboto, sans-serif;
+        border:0px solid #3a3a3a;
+        text-align:center;
+        padding:5px;
+        background: #000000;
+        color: #ffffff;
+        font-size: small;
+    }
+    .btnBrownstone{
+        background-image: url('../image/carte/large/brownstone.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px auto;
+        border-radius: 17px;
+    }
+    
+    .btnSunny{
+        background-image: url('../image/carte/large/sunny.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px auto;
+        border-radius: 17px;
+    }
+    
+    .btnMaple{
+        background-image: url('../image/carte/medium/maple.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px auto;
+        border-radius: 17px;
+    }
+    
+    .btnPrison{
+        background-image: url('../image/carte/medium/prison.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px auto;
+        border-radius: 17px;
+    }
+    
+    .btnTanglewood {
+        background-image: url('../image/carte/small/tanglewood.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px auto;
+        border-radius: 17px;
+    }
+    
+    .btnRidgeview{
+        background-image: url('../image/carte/small/ridgeview.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px auto;
+        border-radius: 17px;
+    }
+    .btnWillow{
+        background-image: url('../image/carte/small/willow.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px auto;
+        border-radius: 17px;
+    }
+    .btnEdgefield{
+        background-image: url('../image/carte/small/edgefield.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px auto;
+        border-radius: 17px;
+    }
+    .btnBleasdale{
+        background-image: url('../image/carte/small/bleasdale.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px auto;
+        border-radius: 17px;
+    }
+    .btnCamp{
+        background-image: url('../image/carte/small/camp.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px auto;
+        border-radius: 17px;
+    }
+    .btnGrafton{
+        background-image: url('../image/carte/small/grafton.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display:inline-block;
+        text-decoration:none;
+        margin: 7px auto;
+        border-radius: 17px;
+    }
 }
 
 /* Tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .title {
-      color: red;
+      color: white;
       font-family: phasmo;
     }
     .navbar {
@@ -1225,6 +1696,7 @@ hr:after {
     .ghost{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
         width: auto;
         height: auto;
     }
